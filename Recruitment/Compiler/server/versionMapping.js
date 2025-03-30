@@ -1,7 +1,7 @@
 // versionMapping.js
 const versionMapping = {
     java: "0",
-    python: null, // Set to null for Python
+    python: null, 
     cpp: "0",
     c: "0",
     nodejs: "0",

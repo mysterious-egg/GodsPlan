@@ -10,7 +10,6 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// Supported languages and their JDoodle API identifiers
 const languageMapping = {
     python3: { code: 'python3', versionIndex: '3' },
     cpp: { code: 'cpp', versionIndex: '4' },
